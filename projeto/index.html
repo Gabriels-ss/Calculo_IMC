@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.75, user-scalable=no">
+    <title>Calcular IMC</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <form class="form" action="" method="GET">
+        <h4 class="titulo">Calcule seu IMC</h4>
+        <p class="text_nome">Nome</p>
+        <input type="text" class="caixa_nome">
+        <p class="text_sobrenome">Sobrenome</p>
+        <input type="text" class="caixa_sobrenome">
+        <p class="text_peso">Peso</p>
+        <input type="number" class="caixa_peso" id="input_peso" step="0.01">
+        <p class="text_altura">Altura</p>
+        <input type="number" class="caixa_altura" id="input_altura" step="0.01">
+        <button type="submit">Enviar</button>
+        <p class="aviso">Preencha todos os campos.</p>
+        <div class="resultado" id="resultado"></div>
+        <div class="peso" id="informar_peso"></div>
+        <div class="altura" id="informar_altura"></div>
+        <div class="imc" id="informar_imc"></div>
+        <div class="classificacao" id="classificacao"></div>
+
+    </form>
+
+    <script src="js/boa_sorte.js"></script>
+</body>
+
+</html>

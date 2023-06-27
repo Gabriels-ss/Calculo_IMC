@@ -1,0 +1,232 @@
+body,
+script {
+    background-image: url("vecteezy_vector-blue-water-wave-shape-layer-concept-zigzag-pattern_9005612.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: top;
+}
+
+.img-imc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    background-color: rgba(248, 246, 246, 0);
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 505px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.img-primaria {
+    position: absolute;
+    width: 320px;
+    top: 540px;
+    left: 0;
+}
+
+.img-segundaria {
+    position: absolute;
+    width: 300px;
+    top: 495px;
+    right: 0;
+}
+
+.titulo {
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.text_nome {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 95px;
+
+}
+
+.caixa_nome {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 110px;
+    position: absolute;
+    height: 30px;
+    width: 750px;
+    border: 1;
+}
+
+.text_sobrenome {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 168px;
+
+}
+
+.caixa_sobrenome {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 180px;
+    position: absolute;
+    height: 30px;
+    width: 750px;
+    border: 1;
+}
+
+.text_peso {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-left: 20px;
+    margin-top: 235px;
+
+}
+
+.caixa_peso {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 250px;
+    position: absolute;
+    height: 30px;
+    width: 750px;
+    border: 1;
+}
+
+.text_altura {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 305px;
+
+}
+
+.caixa_altura {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 320px;
+    position: absolute;
+    height: 30px;
+    width: 750px;
+    border: 1;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 7px;
+    outline: none;
+    background-color: rgb(239, 236, 236);
+    margin-top: 370px;
+    margin-left: 20px;
+    width: 756px;
+    height: 30px;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: #239E9C;
+    border-color: rgba(9, 6, 6, 0)
+}
+
+.aviso {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 410px;
+
+}
+
+.resultado {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 420px;
+}
+
+.peso {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 420px;
+}
+
+.altura {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 420px;
+}
+
+.imc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 420px;
+}
+
+.classificacao {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 450px;
+}
+
+.titulo,
+.text_nome,
+.text_nome,
+.text_peso,
+.text_sobrenome,
+.text_altura,
+.aviso {
+    color: #fefefe;
+}
+
+.peso,
+.resultado,
+.altura,
+.imc,
+.classificacao {
+    color: #ffffff;
+}
+
+input {
+    width: 100px;
+    padding: 5px;
+    color: rgb(179, 173, 174);
+    background-color: #239e9c00;
+    border: 0;
+    border-bottom: 2px solid rgb(247, 242, 223);
+}
+
+input:focus {
+    outline: none;
+    color: aliceblue;
+    border-bottom: 3px solid #25dcd6;
+}
